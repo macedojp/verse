@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+
+#banner {
+    background-color: #A020F0;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.product-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.product-list li {
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+}
+
+.product-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000;
+}
+
+    nav ul li {
+    margin-right: 20px;
+    }
+
+    nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    font-weight: bold;
+    }
+
+    nav ul li a:hover {
+    color: #A020F0;
+    }
+    
+        .descricao {
+        font-size: 16px;
+        }
+
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+        }
+
+        .descricao {
+        flex: 1;
+        font-size: 16px;
+        padding: 20px;
+        }
+       
+        footer {
+        background-color: #000000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        }
+        footer {
+        background-color: #000000;
+        color: #fff;
+        padding: 30px 0;
+        font-size: 14px;
+        }
+        .footer-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+        .footer-column {
+        width: 33%;
+        }
+        .footer-column h3 {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+        color: #aaa;
+        text-decoration: none;
+        }
+        .footer-column ul li a:hover {
+        color: #fff;
+        }
+        
+        .menu1 {
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        }
+        
+        ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .popimg {
+        height: 200px;
+        }  
